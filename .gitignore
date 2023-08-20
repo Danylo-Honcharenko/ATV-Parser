@@ -1,2 +1,5 @@
 /src/set
 /.ide
+./src/main.spec
+./src/build
+./src/dist

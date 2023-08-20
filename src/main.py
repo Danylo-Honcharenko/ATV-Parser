@@ -19,7 +19,7 @@ else:
     dbName = input("Database name: ")
 
     if Path("set").is_dir():
-        print("\n[Info] 'set' folder exist!")
+        print("\n[Info] 'set' folder exist")
     else:
         os.mkdir("set")
 

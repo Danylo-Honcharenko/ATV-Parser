@@ -18,3 +18,4 @@ def testdbconn():
         conn.close()
     except mysql.connector.Error as err:
         print("[Error] Connect to DB error. More: {}".format(err))
+        print("[Info] Edit atv.conf")
